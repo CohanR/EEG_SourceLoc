@@ -7,6 +7,8 @@ Main ingredients:
 Digitisation: EEG digitisation involves recording electrode positions in 3D space relative to anatomical landmarks, such as nasion and preauricular points. Accurate digitisation ensures alignment between the electrode montage and the subject’s anatomy. In this pipeline, the standard 10-20 montage is used, with adjustments to exclude non-EEG channels (e.g., eye movement or stimulus channels). Proper alignment is super important for constructing accurate head models and source reconstructions.
 
 Anatomical Reconstruction: Anatomical data is processed using Freesurfer to create subject-specific head models.Freesurfer generates a high-resolution segmentation of the brain, producing surface meshes of the cortex, scalp, and skull. These surfaces are stored as boundary element method or BEM models used for forward modelling. I think if you are here, you know that the recon-all command is a prerequisite for this pipeline, generating cortical parcellations, which serve as anatomical labels for extracting ROI time courses or even a full brain exploration.
+![EEG Source Localization Example](SourceLoc_Image/Coreg2_EEG_sourceloc_Remy_Cohan.png)
+Example of a decent coregistration and correct feducial coordinates
 
 EEG Preprocessing: Raw EEG data is preprocessed to handle missing or noisy channels, re-reference the signals to the average EEG reference, and apply baseline corrections. Non-EEG channels (e.g., eye or stimulus channels) are excluded or marked as bad, as they are unnecessary for source localization. The digitised electrode positions are aligned with the subject’s MRI coordinate system, ensuring accurate spatial correspondence.
 
