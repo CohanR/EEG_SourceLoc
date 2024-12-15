@@ -19,5 +19,7 @@ Here, I then use the dynamic statistical parametric mapping (dSPM) approach, whi
 
 Source Time Course and ROI Extraction: At this stage, cortical activation time courses are computed for all vertices in the source space. ROIs, such as the motor cortex, are defined using Freesurfer parcellations, and their mean activation time courses are extracted. This step enables region-specific analyses, such as identifying peak activations in the left and right hemispheres. But agin, if you wish to look at the entire brain, defining ROIs would be redundant. 
 
+![EEG Source Localization Example](SourceLoc_Image/EEG_SourceLoc_Remy_Cohan.gif)
+
 Visualisation and Results: Source activations are visualized on cortical surfaces, highlighting global and regional peaks. The time viewer provides an interactive way to explore temporal dynamics of activation across the cortex.
 Peak activations are reported with MNI coordinates and vertex indices, which you can then use for further analyses or integration with other imaging analysis modalities.
