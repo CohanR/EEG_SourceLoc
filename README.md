@@ -10,8 +10,13 @@ Digitisation: EEG digitisation involves recording electrode positions in 3D spac
 
 
 Anatomical Reconstruction: Anatomical data is processed using Freesurfer to create subject-specific head models.Freesurfer generates a high-resolution segmentation of the brain, producing surface meshes of the cortex, scalp, and skull. These surfaces are stored as boundary element method or BEM models used for forward modelling. I think if you are here, you know that the recon-all command is a prerequisite for this pipeline, generating cortical parcellations, which serve as anatomical labels for extracting ROI time courses or even a full brain exploration.
+
 ![EEG Source Localization Example](SourceLoc_Image/Coreg2_EEG_sourceloc_Remy_Cohan.png)
 Example of a decent coregistration and correct feducial coordinates
+
+![EEG Source Localization Example](SourceLoc_Image/Coreg_EEG_sourceloc_Remy_Cohan.png)
+Examples of good and bad registrations (poor digitisation, or faulty/incorrect .sfp files)
+
 
 EEG Preprocessing: Raw EEG data is preprocessed to handle missing or noisy channels, re-reference the signals to the average EEG reference, and apply baseline corrections. Non-EEG channels (e.g., eye or stimulus channels) are excluded or marked as bad, as they are unnecessary for source localization. The digitised electrode positions are aligned with the subject’s MRI coordinate system, ensuring accurate spatial correspondence.
 
