@@ -46,6 +46,6 @@ Visualisation and Results: Source activations are visualized on cortical surface
 Peak activations are reported with MNI coordinates and vertex indices, which you can then use for further analyses or integration with other imaging analysis modalities.
 
 <p align="center">
-  <img src="SourceLoc_Image/SourceLoc_Image/activation_extraction_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
+  <img src="SourceLoc_Image/activation_extraction_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
 </p>
 
