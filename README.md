@@ -29,7 +29,7 @@ Anatomical Reconstruction: Anatomical data is processed using Freesurfer to crea
 <div style="text-align: center; font-size: small;">
 <i>Examples of good and bad registrations (poor digitisation, or faulty/incorrect .sfp files)</i>
 </div>
-
+</p>
 
 EEG Preprocessing: Raw EEG data is preprocessed to handle missing or noisy channels, re-reference the signals to the average EEG reference, and apply baseline corrections. Non-EEG channels (e.g., eye or stimulus channels) are excluded or marked as bad, as they are unnecessary for source localization. The digitised electrode positions are aligned with the subject’s MRI coordinate system, ensuring accurate spatial correspondence.
 
