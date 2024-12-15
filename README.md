@@ -16,13 +16,15 @@ Anatomical Reconstruction: Anatomical data is processed using Freesurfer to crea
 <p align="center">
   <img src="SourceLoc_Image/Coreg2_EEG_sourceloc_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
 </p>
+</p>
 <div style="text-align: center; font-size: small;">
 <i>Example of a decent coregistration and correct fiducial coordinates</i>
 </div>
 
-
+</p>
 <p align="center">
   <img src="SourceLoc_Image/Coreg_EEG_sourceloc_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
+</p>
 </p>
 <div style="text-align: center; font-size: small;">
 <i>Examples of good and bad registrations (poor digitisation, or faulty/incorrect .sfp files)</i>
