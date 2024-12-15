@@ -1,6 +1,8 @@
 # EEG source localisation pipeline
 
-![EEG Source Localization Example](SourceLoc_Image/EEG_SourceLoc_Remy_Cohan.gif)
+<p align="center">
+  <img src="SourceLoc_Image/EEG_SourceLoc_Remy_Cohan.gif" alt="EEG Source Localization Example" width="600">
+</p>
 
 Here, I provide a comprehensive pipeline for performing source localisation from EEG data, including preprocessing, epoching, source reconstruction, and visualisation of cortical activations. The pipeline integrates steps from raw EEG data handling to source localisation, leveraging Freesurfer and MNE-Python for anatomical and functional analysis. Here is an overview of the pipeline’s logical flow:
 
@@ -11,11 +13,12 @@ Digitisation: EEG digitisation involves recording electrode positions in 3D spac
 
 Anatomical Reconstruction: Anatomical data is processed using Freesurfer to create subject-specific head models.Freesurfer generates a high-resolution segmentation of the brain, producing surface meshes of the cortex, scalp, and skull. These surfaces are stored as boundary element method or BEM models used for forward modelling. I think if you are here, you know that the recon-all command is a prerequisite for this pipeline, generating cortical parcellations, which serve as anatomical labels for extracting ROI time courses or even a full brain exploration.
 
-
 <p align="center">
   <img src="SourceLoc_Image/Coreg2_EEG_sourceloc_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
 </p>
+
 Example of a decent coregistration and correct feducial coordinates
+
 
 <p align="center">
   <img src="SourceLoc_Image/Coreg_EEG_sourceloc_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
