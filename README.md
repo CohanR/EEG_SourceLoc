@@ -4,7 +4,7 @@
   <img src="SourceLoc_Image/EEG_SourceLoc_Remy_Cohan.gif" alt="EEG Source Localization Example" width="600">
 </p>
 
-Here, I provide a comprehensive pipeline for performing source localisation from EEG data, including preprocessing, epoching, source reconstruction, and visualisation of cortical activations. The pipeline integrates steps from raw EEG data handling to source localisation, leveraging Freesurfer and MNE-Python for anatomical and functional analysis. Here is an overview of the pipeline’s logical flow:
+Here, I provide a comprehensive pipeline for performing source localisation from EEG data, including preprocessing, epoching, source reconstruction, and visualisation of cortical activations. The pipeline integrates steps from raw EEG data handling to source localisation, leveraging Freesurfer (you need subjects' T1 and T2 for accurate segmentation and dipole calculations) and MNE-Python for anatomical and functional analysis. Here is an overview of the pipeline’s logical flow:
 
 Main ingredients:
 
