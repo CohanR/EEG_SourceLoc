@@ -49,8 +49,8 @@ Source Time Course and ROI Extraction: At this stage, cortical activation time c
 <p align="center">
   <img src="SourceLoc_Image/ROI_EEG_sourceloc_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
 </p>
-Visualisation and Results: Source activations are visualized on cortical surfaces, highlighting global and regional peaks. The time viewer provides an interactive way to explore temporal dynamics of activation across the cortex.
-Peak activations are reported with MNI coordinates and vertex indices, which you can then use for further analyses or integration with other imaging analysis modalities.
+Visualisation and Results: Source activations are visualised on cortical surfaces, highlighting global and regional peaks. The MNE time viewer provides an interactive way to explore temporal dynamics of activation across the cortex.
+Peak activations are reported with MNI coordinates and vertex indices, which you can then use for further analyses or integration with other imaging analysis.
 
 <p align="center">
   <img src="SourceLoc_Image/activation_extraction_Remy_Cohan.png" alt="EEG Source Localization Example" width="600">
